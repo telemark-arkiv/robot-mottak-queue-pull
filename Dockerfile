@@ -1,5 +1,5 @@
 # Setting the base to node 10.3.0
-FROM node:10.3.0-alpine
+FROM node:10.3.0-alpine@sha256:3e218008f8531a67d4bb2f79333009c391d64cdd42dbaace604bd547297dc654
 
 #### Begin setup ####
 
