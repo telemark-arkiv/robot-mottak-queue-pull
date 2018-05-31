@@ -35,6 +35,9 @@ $ docker run --env-file=docker.env --volume=/test/directories/jobs:/src/test/dir
 
 This will start a container. Do the job. Stop the container and remove it.
 
+## Related
+- [micro-svarinn](https://github.com/telemark/micro-svarinn) proxy for SvarUT Mottaksservice v1
+
 ## License
 
 [MIT](LICENSE)
