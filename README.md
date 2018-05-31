@@ -3,7 +3,7 @@
 
 # robot-mottak-queue-pull
 
-Retrieves list of incoming documents. Filters result and generate retrieval jobs.
+Retrieves list of incoming documents. Generate retrieval jobs.
 
 ## Setup
 
@@ -15,7 +15,7 @@ JOBS_DIRECTORY_PATH=test/directories/jobs
 DONE_DIRECTORY_PATH=test/directories/done
 MOTTAK_SERVICE_USERNAME=Louie
 MOTTAK_SERVICE_PASSWORD=Louie Louie
-MOTTAK_SERVICE_URL=https://svarut.ks.no/tjenester/svarinn/mottaker/hentNyeForsendelser
+MOTTAK_SERVICE_URL=https://service.io/hentNyeForsendelser?filter=true
 PAPERTRAIL_HOSTNAME=mottak-queue-pull
 PAPERTRAIL_HOST=logs.papertrailapp.com
 PAPERTRAIL_PORT=12345

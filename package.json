@@ -1,6 +1,6 @@
 {
   "name": "robot-mottak-queue-pull",
-  "description": "Checks the status for agreements",
+  "description": "Retrieves list of incoming documents. Generate retrieval jobs.",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
