@@ -15,7 +15,7 @@ JOBS_DIRECTORY_PATH=test/directories/jobs
 DONE_DIRECTORY_PATH=test/directories/done
 MOTTAK_SERVICE_USERNAME=Louie
 MOTTAK_SERVICE_PASSWORD=Louie Louie
-MOTTAK_SERVICE_URL=https://service.io/hentNyeForsendelser?filter=true
+MOTTAK_SERVICE_URL=https://service.io/tjenester/svarinn/mottaker/hentNyeForsendelser/true
 PAPERTRAIL_HOSTNAME=mottak-queue-pull
 PAPERTRAIL_HOST=logs.papertrailapp.com
 PAPERTRAIL_PORT=12345
